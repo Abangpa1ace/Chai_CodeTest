@@ -4,7 +4,6 @@ import './team-component.css';
 class TeamComponent extends Component {
     constructor(props) {
         super(props);
-        this.teamIndex = this.props.teamIndex;
         this.sortMode = ['order', 'nameAscending', 'nameDescending'];
         this.state = {
             team: {},
